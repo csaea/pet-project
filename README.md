@@ -1,5 +1,5 @@
 # pet-project
-My Pet Project - In-class live coding example covering the basics of Java. 
+My Pet Project - a simple coding example covering the basics of Java Object-Oriented-Programming. 
 
 ## How to execute the code
 In terminal, make sure you navigate to the `src` directory. (Use `ls` to list all files, and `cd` to change directory until you're in `src`).
