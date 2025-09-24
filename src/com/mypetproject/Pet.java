@@ -1,17 +1,18 @@
+package src.com.mypetproject;
+
 public class Pet {
 
     //attribute fields:
-    private String species;
+    public String species;
 
     //constructor method:
     public Pet(String species) {
         this.species = species; 
-        //the first 'this.species' refers to the variable 'species' in THIS class: String species = < enter string here >
-        //the second 'species' refers to the parameter, whose value was entered when creating the new object: Pet("cat").  
-        //Ex: If we made an object like: Pet jeffrey = Pet("cat"), then in this class, the constructor would set the 'species' variable to 'cat', like: species = "cat" 
     }    
+        //the first 'this.species' refers to the VARIABLE 'species' in THIS class for each new object.
+        //the second 'species' refers to the PARAMTER, whose value was entered when creating the new object: ex., Pet("cat").  
 
-    //behavior
+    //behaviors:
     public void getSpecies(){
         System.out.println("This pet is a: " + species);
     }
