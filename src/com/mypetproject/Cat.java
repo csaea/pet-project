@@ -1,6 +1,7 @@
-package src.com.mypetproject;
+package com.mypetproject;
 
-//the extends keyword declares Pet as the superclass of Cat. 
+//Inheritance: the `extends` keyword declares Pet as the superclass of Cat. 
+//With `extends `, the Cat class now `inherits` attributes and behaviros from Pet.  
 public class Cat extends Pet {
 
     //attributes

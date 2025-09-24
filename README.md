@@ -1,17 +1,18 @@
 # pet-project
 My Pet Project - In-class live coding example covering the basics of Java. 
 
-To run your code:
+## How to execute the code
+In terminal, make sure you navigate to the `src` directory. (Use `ls` to list all files, and `cd` to change directory until you're in `src`).
 
 1. Compile all classes in a package:
-`javac src/com/mypetproject/*.java` 
+javac com/mypetproject/*.java
 
 2. Run the program via Main
-`java src.com.mypetproject.Main`
+javac com/mypetproject/*.java
 
 Better practice: 
 Compile all java files and put them in their own directory named `out`:
-`javac -d out src/com/mypetproject/*.java`
+javac -d out src/com/mypetproject/*.java
 
 
 
